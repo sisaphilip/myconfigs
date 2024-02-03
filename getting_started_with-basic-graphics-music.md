@@ -55,18 +55,18 @@ In terminal, at a desired location clone the main directory from github
 Step 6 Setup and Sellecting FPGA board.
 -----------------------------
 Connect your FPGA board via usb cable  
-![board connection]()  
+![board connection](https://github.com/sisaphilip/myconfigs/blob/main/Pictures/b0.jpg)  
 
 Open the downloaded directory on your pc in terminal  
-![CLI]()  
+![CLI](https://github.com/sisaphilip/myconfigs/blob/main/Pictures/mm0.png)  
 Run the bash script  
 > ./check_setup_and_choose_fpga_board.bash  
 
 Sellect the corresponding number of your boards DE10-lite is 16 and press ENTER  
-![Board sellection]()  
+![Board sellection](https://github.com/sisaphilip/myconfigs/blob/main/Pictures/mm0.png)  
 
 Choose N when prompted with choice to use Qurtus GUI  
-![CLI choice]()  
+![CLI choice](https://github.com/sisaphilip/myconfigs/blob/main/Pictures/mm2.png)  
 
 Step 7 Running Shift register example
 -------------------------------------
@@ -74,19 +74,21 @@ Step 7 Running Shift register example
 Navigate to shift register example by typing  
 > cd labs/08_shift_register  
 
-![08 shift register example location]()  
+![08 shift register example location](https://github.com/sisaphilip/myconfigs/blob/main/Pictures/mm3.png)  
 
 To Run synthesis in **CLI** run the script  
 > ./03_synthesize_for_fpga.bash  
 
+![Run synthesis script](https://github.com/sisaphilip/myconfigs/blob/main/Pictures/mm4.png)  
+
 After a successful synthesis the image bellow should appear  
-![success display]()  
+![success display](https://github.com/sisaphilip/myconfigs/blob/main/Pictures/mm5.png)  
 
 Ensure all the LED switches are off  
-![board with switches off]()  
+![board with switches off](https://github.com/sisaphilip/myconfigs/blob/main/Pictures/b1.jpg)  
 
 Press Reset button, KEY 0 to observe how logic 1 get shifted accross the registers  
-![board after reset pressed]()  
+![board after reset pressed](https://github.com/sisaphilip/myconfigs/blob/main/Pictures/b2.jpg)  
 
 
 You can run other scripts in the directory depending on what you want to do  
