@@ -17,8 +17,8 @@ Requirements:-
 
 1. Ubuntu 23.10,supports latest icarus verilog 12, other versions of linux are supported also.
 2. git.
-3. FPGA board, the examples support 30 boards with FPGAs from Xilinx,Altera, Gowin and  
-Lattice and aim to be compatible with open-source ASIC design tools.  
+3. FPGA board, the examples support 30 boards with FPGAs from Xilinx,Altera, Gowin and Lattice and  
+   aim to be compatible with open-source ASIC design tools.  
 
 A List of boards for various FPGA vendors:-  
 
@@ -29,8 +29,7 @@ Step 1 download Intel Quartus
 -----------------------------
 
 [Go to](https://www.intel.com/content/www/us/en/software-kit/795187/intel-quartus-prime-lite-edition-design-software-version-23-1-for-linux.html)
-and download Quartus Lite Edition 23.1. This version needs no license to generate  
-files to program the FPGA  
+and download Quartus Lite Edition 23.1. This version needs no license to generate files to program the FPGA  
 
 ![download page](https://github.com/sisaphilip/myconfigs/blob/main/Pictures/0.png)
 
@@ -59,8 +58,8 @@ Installation Completed
 Step 3 Running Quartus
 ----------------------
 
-Double click on desktop icon **OR** Navigate to installation directory in bin directory  
-in command line and type  
+Double click on desktop icon **OR** Navigate to installation directory in bin directory in command line and type  
+
 > ./quartus  
 
 ![GUI](https://github.com/sisaphilip/myconfigs/blob/main/Pictures/8.png)  
@@ -76,6 +75,7 @@ Step 5 git clone Basic-graphics-music
 ------------------------------------
 
 In terminal, at a desired location clone the main directory from github  
+
 > git clone https://github.com/yuri-panchul/basics-graphics-music  
 
 Step 6 Setup and Sellecting FPGA board.
@@ -96,10 +96,9 @@ To update to the new version.
 Run the bash script  
 > ./check_setup_and_choose_fpga_board.bash  
 
-Sellect the corresponding number of your boards DE10-lite is 16 and press ENTER  
-The number might change depending on cloned version of the directory.  
-Some old boards that are not supported by Quartus 23.1 can be used by  
-of the software.  
+Sellect the corresponding number of your boards DE10-lite is 16 and press ENTER The number might change depending  
+on cloned version of the directory. Some old boards that are not supported by Quartus 23.1 can be used by of the  
+software.  
 
 ![Board sellection](https://github.com/sisaphilip/myconfigs/blob/main/Pictures/mm0.png)  
 
@@ -123,23 +122,21 @@ To Run synthesis in **CLI** run the script
 
 ![Run synthesis script](https://github.com/sisaphilip/myconfigs/blob/main/Pictures/mm4.png)  
 
-During synthesis a directory Run is generated, containing necessary files for programming  
-the FPGA, after which the programmer is run by the same script to program the board  
-using the files. After a **successful!!** synthesis the image bellow should appear  
+During synthesis a directory Run is generated, containing necessary files for programming the FPGA, after which the  
+programmer is run by the same script to program the board using the files. After a **successful!!** synthesis the response should be as bellow.  
 
 ![success display](https://github.com/sisaphilip/myconfigs/blob/main/Pictures/mm5.png)  
 
-Ensure all the LED switches are off  
-All switches should be down because the left switch is used as a reset.  
+Ensure all the LED switches are off All switches should be down because the left switch is used as a reset.  
 
 ![board with switches off](https://github.com/sisaphilip/myconfigs/blob/main/Pictures/b1.jpg)  
 
 The image bellow illustrates how a shift register works.  
 
-[register](https://github.com/sisaphilip/myconfigs/blob/main/Pictures/register.png)  
+![register](https://github.com/sisaphilip/myconfigs/blob/main/Pictures/register.png)  
 
-Press Reset button, KEY 0 to observe how logic 1 get shifted accross the registers  
-If you use another board, not DE10-Lite, reset might be allocated to another button.
+Press Reset button, KEY 0 to observe how logic 1 get shifted accross the registers If you use another board,  
+not DE10-Lite, reset might be allocated to another button.  
 
 ![board after reset pressed](https://github.com/sisaphilip/myconfigs/blob/main/Pictures/b2.jpg)  
 
