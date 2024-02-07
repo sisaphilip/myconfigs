@@ -9,8 +9,8 @@ It consists of an array of programmable logic blocks and interconnects that can 
 various digital functions. FPGAs are commonly used in applications where flexibility, speed, and parallel  
 processing capabilities are required, such as in telecommunications, automotive and aerospace.  
 
-[ASIC](https://en.wikipedia.org/wiki/Application-specific_integrated_circuit), Application Specific Integrated Circuit, this is an integrated circuit chip designed for  
-specific use for instance, telecommunications, automotive etc.  
+[ASIC](https://en.wikipedia.org/wiki/Application-specific_integrated_circuit), Application Specific Integrated Circuit, this is an integrated circuit chip designed for specific use  
+for instance, telecommunications, automotive etc.  
 
 These examples facilitate learning for beginners by:-  
 
