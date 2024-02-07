@@ -2,7 +2,15 @@ Beginner's guide to Basic-graphics-music examples
 ==================================================
 
 These are examples to demonstrate labs sessions for [systemverilog-homework](https://github.com/yuri-panchul/systemverilog-homework) which are portable  
-examples for ASIC and FPGA.  
+examples for FPGA and ASIC.  
+
+[FPGA](https://en.wikipedia.org/wiki/Field-programmable_gate_array) Field Programmable Gate Array is a type of integrated circuit that can be programmed multiple times.  
+It consists of an array of programmable logic blocks and interconnects that can be configured to perform  
+various digital functions. FPGAs are commonly used in applications where flexibility, speed, and parallel  
+processing capabilities are required, such as in telecommunications, automotive and aerospace.  
+
+[ASIC](https://en.wikipedia.org/wiki/Application-specific_integrated_circuit), Application Specific Integrated Circuit, this is an integrated circuit chip designed for  
+specific use for instance, telecommunications, automotive etc.  
 
 These examples facilitate learning for beginners by:-  
 
