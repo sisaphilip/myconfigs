@@ -1,7 +1,7 @@
 Beginner's guide to Basic-graphics-music examples
 ==================================================
 
-These are examples to demonstrate labs sessions for [systemverilog-homework](https://github.com/yuri-panchul/systemverilog-homework) which are portable  
+These are examples to demonstrate labs sessions for [systemverilog-homework](https://github.com/yuri-panchul/systemverilog-homework) which are portable [systemverilog](https://en.wikipedia.org/wiki/SystemVerilog)   
 examples for FPGA and ASIC.  
 
 [FPGA](https://en.wikipedia.org/wiki/Field-programmable_gate_array) Field Programmable Gate Array is a type of integrated circuit that can be programmed multiple times.  
